@@ -54,10 +54,10 @@ Gem::Specification.new do |s|
 
 }
 
-  s.add_development_dependency 'rake', '~> 10'
+  s.add_development_dependency 'rake', '~> 13'
 
-  s.add_dependency 'gherkin', '>= 9.0', '< 11.0'
-  s.add_dependency 'cucumber', '>= 3.0', '< 5.0'
+  s.add_dependency 'gherkin', '>= 9.0', '< 15.0'
+  s.add_dependency 'cucumber', '>= 3.0', '< 7.0'
   s.add_dependency 'yard', '~> 0.9', '>= 0.9.1'
 
   s.rubygems_version   = "1.3.7"
